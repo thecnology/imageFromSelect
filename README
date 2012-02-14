@@ -1,0 +1,24 @@
+/** 
+ * imageFromSelect jQuery plugin
+ *
+ * @author Vitezslav Kis
+ *
+ * options:
+ *   containerAttr: 'rel'
+ *   imageId: 'simage2galery',
+ *   thubnailResized: false, 
+ *   thumbnailWidth: '120px',
+ *   thumbnailHeight: '120px',
+ *   emptyText: 'No image'
+ *  
+ *  
+ *
+ */
+
+after launch use:
+
+$(document).ready(function() {
+
+ $('#select').imageFromSelect();
+
+});
