@@ -15,6 +15,19 @@
  *
  */
 
+create from current select,image thumbnail into div with defined id. 
+<select id="select">
+<option value="1" rel="path/to/image1.jpg">
+<option value="2" rel="path/to/image2.jpg">
+<option value="3" rel="path/to/image3.jpg">
+</select>
+
+<div id="simage2galery"></div>
+
+onchange event 
+
+
+
 after launch use:
 
 $(document).ready(function() {
